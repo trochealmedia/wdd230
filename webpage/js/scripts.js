@@ -1,32 +1,30 @@
-let daynames = [
-    "Monday",
-    "Tuesday",
-    "Weendsday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-    "Sunday"
-];
+// let daynames = [
+//     "Monday",
+//     "Tuesday",
+//     "Weendsday",
+//     "Thursday",
+//     "Friday",
+//     "Saturday",
+//     "Sunday"
+// ];
 
-let months = [    
-    "January",
-    "February",
-    "March",
-    "April",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December"
-];
+// let months = [    
+//     "January",
+//     "February",
+//     "March",
+//     "April",
+//     "June",
+//     "July",
+//     "August",
+//     "September",
+//     "October",
+//     "November",
+//     "December"
+// ]; 
 
 let d = new Date();
-let dayName = daynames[d.getDay()];
-let monthName = months[d.getMonth()];
-let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " +
-d.getFullYear();
-
+let fulldate = d.getFullYear();
 document.getElementById("currentdate").textContent = fulldate;
- 
+
+const Update = document.lastModified
+document.querySelector("#update").textContent = Update;

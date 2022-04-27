@@ -39,12 +39,11 @@ header{
     background-color: #900C3F;
 }
 img{
+    width: 130px; 
+    height: 170px;
     padding: 25px;
 }
-.profile-picture{
-    grid-column: 1/2;
-    width: 40%;
-}
+
 h1{
     color: #ffff;
     grid-column: 2/3;
