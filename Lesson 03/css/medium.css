@@ -1,0 +1,11 @@
+/* -----------------medium size------------------------------ */
+@media only screen and (max-width: 1029px){
+    h1{
+        margin-left: 15px;
+        margin-top: 0;
+    }
+    nav ul{
+        font-size: 15px;
+        padding: 0;
+    }
+}

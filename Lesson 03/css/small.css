@@ -1,0 +1,23 @@
+/* -----------------small size------------------------------ */
+@media only screen and (max-width: 875px){
+    header{
+        min-width: 260px;
+        text-align: center;
+    }
+    h1{
+        margin: 0;
+        float: none;
+    }
+    li{
+        display: block;
+        float: none;
+    }
+
+    main{
+        grid-template-columns: 1fr;
+        max-width: 800px;
+    }
+    main picture{
+        display: block;
+    }
+}
