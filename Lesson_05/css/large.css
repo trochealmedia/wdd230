@@ -1,0 +1,116 @@
+@media only screen and (min-width: 950px){
+     /* -------------header------------------------------ */
+     .logo {
+        width: 200px;
+    }
+    header h1 {
+        font-size: 35px;
+        margin-top: 70px;
+    }
+    #formatted-date {
+        font-size: 20px;
+    }
+    /* ------------------nav-------------------------- */
+    #hamburguer {
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+    /* -------------------social media--------------- */
+    .facebook_link {
+        font-size: 15px;
+    }
+    .linkedln_link {
+        font-size: 15px;
+    }
+
+    /* ----------------------main--------------------------- */
+    .container {
+        margin: 20px;
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 30vh 30vh 250px;
+    }
+    .event{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        height: auto;
+    }
+    .weather {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .join {
+        display: block;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .hero {
+        grid-column: 2/3;
+        grid-row: 1/3;
+        height: 60vh;
+    }
+    .new {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .spotlight {
+        background-color: rgb(216, 212, 212);
+        grid-column: 3/4;
+        grid-row: 1/4;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }   
+    .spotlight1 {
+        grid-row: 1/2;
+        margin: 10px;
+    }
+    .spotlight1 h3 {
+        margin: 20px;
+    }
+    .spotlight2 {
+        grid-row: 2/3;
+        margin: 10px;
+    }
+    .spotlight2 h3 {
+        margin: 20px;
+    }
+    .spotlight3 {
+        display: block;
+        grid-row: 3/4;
+        text-align: center;
+        margin: 10px;
+        background-color: #C70039;
+        padding: 10px;
+    }
+    .hecho {
+        max-width: 100px;
+    }
+
+     /* -----------------------footer----------------------- */
+     .logo_footer {
+        width: 80px;
+    }
+    .information p {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .contact_info p {
+        font-size: 15px;
+    }
+    a {
+        font-size: 15px;
+    }
+    #year {
+        font-size: 15px;
+    }
+    .footer_line p {
+        font-size: 15px;
+    }
+    #last-modify {
+        font-size: 15px;
+    }
+}
