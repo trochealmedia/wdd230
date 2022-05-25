@@ -170,8 +170,8 @@ nav ul li a {
 .weather {
     grid-column: 1;
     grid-row: 3/4;
-    background-color: #FF5D2D;
-    color: #efefef;
+    background-color: #fefefe;
+    color: #FF5D2D;
     text-align: center;
 }
 .weather h3 {

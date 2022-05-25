@@ -10,9 +10,9 @@ weather.temperature = {
 };
 
 const KELVIN = 273;
-const key = "69e9196e9355247caa02632afbd83a52";
+const key = "57d16f210f6741a79b3b085f67258384";
 
-if ("geolocation" in navigator){
+if ("geolocation" in navigator) {
     navigator.geolocation.getCurrentPosition(setPosition, showError);
 } else {
     notificationElement.style.display = "block";
@@ -33,27 +33,27 @@ function showError(error) {
 
 function getWeather(latitude, longitude){
     let api = `https://api.openweathermap.org/data/3.0/onecall?lat=${latitude}&lon=${longitude}&exclude={part}&appid=${key}`;
-
-    fetch(api)
-    .then(function(response){
-        let data =response.json();
-        return data;
-    })
-    .then(function(data) {
-        weather.temperature.value = Math.floor(data.main.temp = KELVIN);
-        weather.description = data.weather[0].description;
-        weather.iconId = data.weather[0].icon;
-        weather.city = data.name;
-        weather.country = data.sys.country;
-    })
-    .then(function() {
-        displayWeather();
-    });    
-}
+    console.log(api);
+//     fetch(api)
+//     .then(function(response){
+//         let data =response.json();
+//         return data;
+//     })
+//     .then(function(data) {
+//         weather.temperature.value = Math.floor(data.main.temp = KELVIN);
+//         weather.description = data.weather[0].description;
+//         weather.iconId = data.weather[0].icon;
+//         weather.city = data.name;
+//         weather.country = data.sys.country;
+//     })
+//     .then(function() {
+//         displayWeather();
+//     });    
+// }
     
-function displayWeather() {
-    iconElement.innerHTML = `<img src="icons/${weather.iconId}.png"/>`;
-    tempElement.innerHTML = `${weather.temperature.value}° <span>C</span>`;
-    descElement.innerHTML = weather.description;
-    locationElement.innerHTML = `${weather.city}. ${weather.country}`;
+// function displayWeather() {
+//     iconElement.innerHTML = `<img src="icons/${weather.iconId}.png"/>`;
+//     tempElement.innerHTML = `${weather.temperature.value}° <span>C</span>`;
+//     descElement.innerHTML = weather.description;
+//     locationElement.innerHTML = `${weather.city}. ${weather.country}`;
 }
