@@ -20,11 +20,12 @@ header h1 {
     font-size: 15px;
 }
 #formatted-date {
+    background-color: #efefef;
     font-family: "Roboto";
     font-weight: bold;
-    color: #efefef;
+    color: #FF5D2D;
     padding: 5px;
-    text-align: right;
+    text-align: center;
     font-size: 10px;
 }
 /* ----------------------Nav--------------------------- */
