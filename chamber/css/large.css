@@ -4,8 +4,10 @@
         width: 200px;
     }
     header h1 {
+        margin-left: 40vh;
+        margin-right: 300px;
+        text-align: center;
         font-size: 35px;
-        margin-top: 70px;
     }
     #formatted-date {
         font-size: 20px;
@@ -20,6 +22,9 @@
         justify-content: center;
     }
     /* -------------------social media--------------- */
+    .social_media {
+        margin-top: 10px;
+    }
     .facebook_link {
         font-size: 15px;
     }
@@ -47,6 +52,7 @@
         display: block;
         grid-column: 1/2;
         grid-row: 3/4;
+        font-size: 15px;
     }
     .hero {
         grid-column: 2/3;
@@ -71,6 +77,13 @@
     }
     .spotlight1 h3 {
         margin: 20px;
+        font-size: 20px;
+    }
+    .spotlight1 h4 {
+        font-size: 15px;
+    }
+    .spotlight1 p {
+        font-size: 10px;
     }
     .spotlight2 {
         grid-row: 2/3;
@@ -78,6 +91,13 @@
     }
     .spotlight2 h3 {
         margin: 20px;
+        font-size: 20px;
+    }
+    .spotlight2 h4 {
+        font-size: 10px;
+    }
+    .spotlight2 p {
+        font-size: 10px;
     }
     .spotlight3 {
         display: block;
