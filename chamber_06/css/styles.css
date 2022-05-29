@@ -166,20 +166,13 @@ div {
 }
 .weather {
     background-color: #FF5D2D;
+    font-family: "Raleway";
     padding: 10px;
     color: #fefefe;
     text-align: center;
 }
-.weather h3 {
-    font-family: "Raleway";
-}
 .icon{
     width: 80px;
-}
-.weather p {
-    font-family: "Raleway";
-    font-size: 20px;
-    margin: 0;
 }
 .new {
     background-color: #C70039;
