@@ -160,16 +160,6 @@
         border-radius: 150px 150px;
         transition: 0.25s;
     } 
-    .card {
-        background-color: #FF5D2D;
-        color: #fefefe;
-        max-width: 100%;
-        padding: 5px;
-        margin-top: 0;
-    }
-    .card h3 {
-        margin-top: 0;
-    }
     .img_gallery {
         grid-column: 2/3;
         grid-row: 1/5;

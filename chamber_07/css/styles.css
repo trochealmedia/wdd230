@@ -327,6 +327,16 @@ h3, h4 {
     margin: 10px;
     width: 85%;
 }
+.card {
+    background-color: #FF5D2D;
+    color: #fefefe;
+    max-width: 100%;
+    padding: 5px;
+    margin-top: 0;
+}
+.card h3 {
+    margin-top: 0;
+}
 
 
 /* ----------------------Footer--------------------------- */
