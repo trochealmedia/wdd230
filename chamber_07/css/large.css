@@ -162,3 +162,33 @@
     .img_gallery img {
         margin-left: 25px;
     }
+/* -----------------------join--------------------------------------- */
+@media only screen and (min-width: 750px){
+    
+    #join_form_page {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .membership_container {
+        display: block;
+    }
+    .form_container {
+        grid-column: 1/2;
+        margin: 10px;
+    }
+    .membership_container {
+        grid-column: 2/3;
+        margin: 10px;
+    }
+    .member {
+        background-color: #FF5D2D;
+    font-family: "Raleway";
+    color: #fefefe;
+    width: 100%;
+    padding: 10px;
+    }
+    ul {
+        margin: 20px;
+        
+    }
+}

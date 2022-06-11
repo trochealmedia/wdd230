@@ -23,6 +23,7 @@
         <nav>
         <button id="hamburguer">&#9776;</button>
             <ul id="primaryNav">
+                <li class="nav_menu_item"><a href="index.html" class="nav-link">Home</a></li>
                 <li class="nav_menu_item"><a href="discover.html" class="nav-link">Discover</a></li>
                 <li class="nav_menu_item"><a href="#" class="nav-link">Directory</a></li>
                 <li class="nav_menu_item"><a href="#" class="nav-link">Join</a></li>
@@ -33,17 +34,71 @@
         <div id="banner"></div>
     </header>
 
-    <main>
-        <div class="container">
-            <h1>Join us</h1>
+    <main id="join_form_page">
+        <div class="form_container">
+            <h1 class="form_title">Join us</h1>
             <form method="get" action="thanks.html">
                  <fieldset>
                     <legend>Applicant Information</legend>
-                    <label for="fname">First Name: <br><input type="text" name="fname" required></label><br>
-                    <label for="lname">Last Name: <br><input type="text" name="lname" required></label><br>
-                    <label for="email">Email: <br><input type="email" name="email" placeholder="something@gmail.com" required></label><br>
+                    <label class="top">First Name* <input type="text" name="fname" required></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required></label>
+                    <label class="top">Bussines Position Title <input type="text" minlength="7"></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="something@gmail.com" required></label>
+                    <label class="top">Phone* <input type="tel" name="phone" placeholder="1234445" required></label>
+                    <label class="top">Bussines Title* <input type="title text" name="bussines" required></label>
                 </fieldset>
+                <fieldset>
+                    <legend>Choose a Membership Level</legend>
+                    <label class="chose"><input type="radio" name="membership">NP Membership</label>
+                    <label class="chose"><input type="radio" name="membership">Bronze Membership</label>
+                    <label class="chose"><input type="radio" name="membership">Silver Membership</label>
+                    <label class="chose"><input type="radio" name="membership">Gold Membership</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Bussines Description</legend>
+                    <textarea name="area" id="description" cols="" rows="10"></textarea>
+                </fieldset>
+                <input type="hidden" id="full.datev" name="full-date" value="">
+                <input type="submit" value="Send my appication" class="submitbtn">
             </form>
+        </div>
+        <div class="membership_container">
+            <h1 class="member">Membership Details</h1>
+            <div class="npmember">
+                <h2>NP Membership</h2>
+                <ul>
+                    <li>NP Membership is for non profit organizations and there is no fee.</li>
+                    <li>Do you have access to our free services</li>
+                </ul>
+            </div>
+            <div class="bronzemember">
+                <h2>Bonze Membership</h2>
+                <ul>
+                    <li>With the bronze membership you are part of our group</li>
+                    <li>Do you have a 5% discount in all our companies members</li>
+                    <li>Access to selected conference and talks</li>
+                    <li>Price: 50bs per month</li>
+                </ul>
+            </div>
+            <div class="silvermember">
+                <h2>Silver Membership</h2>
+                <ul>
+                    <li>Do you have a 7% discount in all our companies members</li>
+                    <li>Support with our experts, 2 sesions per month to help to growth your bussines</li>
+                    <li>Access to all conference and talks</li>
+                    <li>Price: 70bs per month</li>
+                </ul>
+            </div>
+            <div class="goldmember">
+                <h2>Gold Membership</h2>
+                <ul>
+                    <li>Do you have a 10% and 15% discount in all our companies members</li>
+                    <li>Support with a complete team to solve problems and archive goals</li>
+                    <li>Meetings, conference and talks with special guests</li>
+                    <li>Like a part of our gold membership you are part of a group of invertors</li>
+                    <li>Enabled our investment funds and loans</li>
+                </ul>
+            </div>
         </div>
     </main>
 
