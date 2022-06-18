@@ -241,7 +241,6 @@ div {
 /* ----------------------Discover page---------------------------- */
 
 main {
-    min-width: 457px;
     margin: 10px;
     font-family: "Roboto";
 }
@@ -509,4 +508,86 @@ input.submitbtn:hover {
 .thanks_button:hover {
     background-color: #C70039;
     color: #fefefe;
+}
+
+/* ---------------------------------directory---------------------------------------- */
+
+.directory {
+    padding: 0.5rem;
+	background-color: #eee;
+}
+.d_h1 {
+    background-color: #FF5D2D;
+    color: #fefefe;
+    margin: 0;
+    padding: 15px;
+    font-family: "Raleway";
+}
+.menu {
+	margin: 0 auto;
+	padding: 0.5rem;
+	background-color: #FF5D2D;
+	text-align: center;
+}
+.menu button {
+	padding: 5px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fefefe;
+    color: #FF5D2D;
+    font-family: "Raleway";
+    font-size: 20px;
+}
+.menu button:hover {
+    background-color: #C70039;
+    color: #fefefe;
+    transition: 0.50s;
+}
+section {
+	padding: 0.5rem;
+	background-color: #fefefe;
+    border: 1px solid #FF5D2D;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.grid .cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.grid section {
+	flex-direction: column;
+	text-align: center;
+    margin: 0.75rem;
+    height: 250px;
+    padding: 25px;
+}
+img {
+	height: 75px;
+	max-width: 100%;
+}
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	align-items: center;
+    margin: 15px;
+}
+.grid section > * {
+	margin: 0.1rem;
+} 
+.list section {
+	flex-direction: row;
+	justify-content: left;
+}
+.list section > * {
+	margin: 0 1rem;
+	text-align: left;
+}
+.list img {
+    display: none;
 }

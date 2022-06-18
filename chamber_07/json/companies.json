@@ -3,39 +3,39 @@
         {
             "name": "Tigo",
             "location": "Av. Mariscal Santa Cruz, esq. Yanacocha, Edificio Hansa, PB",
-            "telf": 800175000,
+            "telf": "800-175000",
             "logourl": "https://trochealmedia.github.io/wdd230/chamber_07/images/tigo.jpg",
-            "website": "www.tigo.com.bo",
+            "website": "http://www.tigo.com.bo",
             "membership": "Silver Membership"
         },
         {
             "name": "Clinica Alemana",
             "location": "Av. 6 de agosto No. 2821, Zona San Jorge",
-            "telf": 59122432521,
+            "telf": "(591)224-32521",
             "logourl": "https://trochealmedia.github.io/wdd230/chamber_07/images/clinica_alemana.jpg",
-            "website": "www.clinicalemana.com.bo",
+            "website": "http://www.clinicalemana.com.bo",
             "membership":"Gold Membership"
         },
         {
             "name": "Fortaleza SAFI",
             "location": "Av. 16 de julio Nª 1591 Edif. Señor de Mayo Z. Central",
-            "telf": 800107234,
+            "telf": "800-107234",
             "logourl": "https://trochealmedia.github.io/wdd230/chamber_07/images/fortaleza.jpg",
-            "website": "www.fortalezasafi.com",
+            "website": "http://www.fortalezasafi.com",
             "membership": "Gold Membership"
         },
         {
             "name": "Tauro S.A.",
             "location": "Zona Obrajes - Av. Ex Costanerita No:1350 - Edificio Tauro",
-            "telf": 59122751168,
+            "telf": "(591)227-51168",
             "logourl": "https://trochealmedia.github.io/wdd230/chamber_07/images/tauro.jpg",
-            "website": "www.constructora-tauro.com",
+            "website": "http://www.constructora-tauro.com",
             "membership": "Bronze Membership"
         },
         {
             "name": "Prolimpio",
             "location": "Calle M. Pinilla No.469 entre Av. 20 de Octubre,",
-            "telf": 59122433232,
+            "telf": "(591)224-33232",
             "logourl": "https://trochealmedia.github.io/wdd230/chamber_07/images/prolimpio.jpg",
             "website": "www.prolimpio.com",
             "membership": "Silver Membership"
@@ -43,33 +43,33 @@
         {
             "name": "COMOL Imp. Exp. SRL",
             "location": "Landaeta N° 221 esq. Plaza del Estudiante, Edif. Gamarra Piso 4",
-            "telf": 59122316731,
+            "telf": "(591)223-16731",
             "logourl": "https://trochealmedia.github.io/wdd230/chamber_07/images/comol.jpg",
-            "website": "www.comol.com.bo/",
+            "website": "http://www.comol.com.bo/",
             "membership": "Bronze Membership"
         },
         {
             "name": "Pil Andina S.A.",
             "location": " Calle Coroico # 1482 Miraflores.",
-            "telf": 59122202881,
+            "telf": "(591)222-02881",
             "logourl": "https://trochealmedia.github.io/wdd230/chamber_07/images/pil.jpg",
-            "website": "www.pilandina.com.bo/",
+            "website": "http://www.pilandina.com.bo/",
             "membership": "Gold Membership"
         },
         {
             "name": "Toyosa S.A.",
             "location": "Av. Mariscal Santa Cruz # 1413",
-            "telf": 698311219,
+            "telf": "(591)698-311219",
             "logourl": "https://trochealmedia.github.io/wdd230/chamber_07/images/toyosa.jpg",
-            "website": "www.toyosa.com/",
+            "website": "http://www.toyosa.com/",
             "membership": "Gold Membership"
         },
         {
             "name": "Farmacorp",
             "location": "Av. 16 de Julio No. 1804",
-            "telf": 22311311,
+            "telf": "(591)223-11311",
             "logourl": "https://trochealmedia.github.io/wdd230/chamber_07/images/farmacorp.jpg",
-            "website": "www.farmacorp.com/",
+            "website": "http://www.farmacorp.com/",
             "membership": "Gold Membership"
         }
     ]
