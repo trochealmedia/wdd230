@@ -21,7 +21,7 @@ fetch(requestURL)
   let paragraph3=document.createElement("p");
   let paragraph4=document.createElement("p");
 
-   heading.textContent=`{companie.name}`;
+   heading.textContent=`${companie.name}`;
    paragraph.textContent=`Address: ${companie.location}`;
    paragraph2.textContent=`Phone Number: ${companie.telf}`;
    paragraph3.textContent=`WebSite: ${companie.website}`;
