@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin-top: 20%;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 20px;
+    color: #fefefe;
+    padding: 50px;
+    font-family: "Noto Sans";
+}
+h1 {
+    font-size: 50px;
+    font-family: "Staatliches";
+}
+p {
+    font-size: 30px;
+}
+h2 {
+    margin-bottom: 5px;
+}
+figure {
+    border: 5px solid #fefefe;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 5px;
+}
+img {
+    margin-left: 25%;
+    width: 100px;
+}
