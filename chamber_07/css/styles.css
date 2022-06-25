@@ -170,8 +170,14 @@ div {
     color: #fefefe;
     text-align: center;
 }
-.icon{
-    width: 80px;
+.weather-grid {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.weather-grid p {
+    margin: 15px 40px;
+    font-size: 20px;
 }
 .new {
     background-color: #C70039;
