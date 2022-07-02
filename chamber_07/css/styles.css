@@ -1,128 +1,94 @@
 /* -----------------small size------------------------------ */
 body {
     margin: 0;
-    background-color: #efefef;
-    min-width: 457px;
+    background-color: #e8e8e8;
+    color: #fefefe;
 }
 /* ----------------------Header--------------------------- */
-.logo {
-    float: left;
-}
 header {
-    background-color: #FF5D2D;   
-    padding: 0.5rem;
+    background-color:#728181;
+    padding: 10px;
+    font-family: "Raleway";
+    display: grid;
+    grid-template-columns: 15% 50% 20% 15%;
 }
-figure {
-    float: left;
-    padding: 2%;
-    margin: 20px 0 0 0;
+.logo {
+    width: 60px;
+    margin-top: 10px;
 }
 header h1 {
-    font-family: "Raleway";
-    color: #fff;
     font-size: 15px;
-    margin-top: 65px;
+    margin-top: 15px;
+    margin-left: 5px;
 }
 #formatted-date {
-    background-color: #efefef;
-    font-family: "Roboto";
-    color: #FF5D2D;
+    background-color: #434d4f;
+    border-radius: 10px;
     padding: 5px;
     text-align: center;
-    font-size: 20px;
-    font-weight: bolder;
+    grid-column: 2/4;
+    font-family: "Roboto";
+    margin-top: 10px;
 }
-/* ----------------------Nav--------------------------- */
-#hamburguer {
-    padding: 5px;
+
+/* ------------------------Nav--------------------------- */
+#hamburger {
     background: none;
     border: none;
-    color: #fff;
+    color: #fefefe;
     font-size: 2rem;
+    grid-column: 4/5;
+    width: fit-content;
+    margin-left: 10px;
 }
-#hamburguer:hover {
-    background-color: #C70039;
-    border-radius: 5px;
+#hamburger:hover {
+    background-color: #434d4f;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+nav {
+    grid-column: 1/5;
 }
 nav ul {
     display: none;
-    width: 100%;
-    margin: 0 auto;
 }
 nav ul.open {
     display: block;
+    padding-left: 0;
 }
 ul {
-    font-family: "Raleway";
     list-style: none;
-    padding-left: 0;
-    margin: 0;
 }
 .nav-link {
-    color: #efefef;
+    color: #fefefe;
     text-decoration: none;
-    margin: 0;
-    padding: 10px 10px 10px 10px;
-    border-radius: 5px;
-    font-size: 20px;
+    padding: 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 .nav-link:hover {
-    background-color: #C70039;
-    transition: 0.3s;
-}
-.nav_menu_item {
-    font-size: 18px;
-    padding: 5px;
-    margin: 0;
+    background-color: #434d4f;
+    border-radius: 10px;
+    transition: 0.5s;
 }
 nav ul li a {
     display: block;
 }
-/* ----------Social media buttoms--------- */
+
+/* -----------------------Social media button-------------- */
 .social_media {
-    text-align: right;
+    justify-self: end;
 }
-.date {
-    text-align: right;
-    font-family: "Roboto";
-    margin: 5px;
-    color: #fff;
-    font-style: normal;
-}
-.facebook_link {
-    color: #FF5D2D;
-    text-decoration: none;
-    font-family: "Raleway";
-    font-size: 10px;
-    padding: 5px 15px 3px 15px;
-    background-color: #fff;
-    border-radius: 5px;
-}
-.facebook_link:hover {
-    background-color: #C70039;
-    color:#fff;
-    transition: 0.3s;
-}
-.linkedln_link {
-    color: #FF5D2D;
-    text-decoration: none;
-    font-family: "Raleway";
-    font-size: 10px;
-    padding: 5px 15px 3px 15px;
-    background-color: #fff;
-    border-radius: 5px;
-}
-.linkedln_link:hover {
-    background-color: #C70039;
-    color: #fff;
-    transition: 0.3s;
+.social_media img {
+    width: 25px;
+    grid-column: 3/4;
+    margin-top: 20px;
 }
 #banner {
     text-align: center;
-    background-color: #FF5D2D;
-    color: #efefef;
+    background-color: #434d4f;
+    padding: 10px; 
     font-family: "Raleway";
-    margin-top: 10px;
 }
 /* ----------------------Main--------------------------- */
 main {

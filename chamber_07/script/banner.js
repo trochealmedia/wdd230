@@ -20,13 +20,13 @@ const currentDay = new Date().getDay();
 
 switch(currentDay) {
     case 0:
-        banner = "🤝🏼 Come join us for the chamber meet and greet Wensday 07:00 p.m";
+        banner = "";
         break;
     case 1:
         banner = "🤝🏼 Come join us for the chamber meet and greet Wensday 07:00 p.m";
         break; 
     case 2:
-        banner = "";
+        banner = "🤝🏼 Come join us for the chamber meet and greet Wensday 07:00 p.m";
         break;
     case 3:
         banner = "";

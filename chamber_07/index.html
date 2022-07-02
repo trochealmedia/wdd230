@@ -18,12 +18,17 @@
         <img class="logo" src="images/logo1.webp" alt="logo" srcset="images/logo1.webp 1x, images/logo2.webp 2x, images/logo3.webp 3x">
         <h1>Bolivian Chamber of Commerce</h1>
         <div class="social_media">
-            <a class="facebook_link" href="https://www.facebook.com/">Facebook</a>
-            <a class="linkedln_link" href="https://www.linkedin.com/">linkedln</a>
+            <a href="https://www.facebook.com/">
+                <img class="facebook" src="images/facebook_icon.png" alt="facebook_icon">
+            </a>
+            <a class="linkedin" href="https://www.linkedin.com/">
+                <img src="images/linkedin_icon.png" alt="linkedin_icon">
+            </a>
         </div>
+        <button id="hamburger">&#9776;</button>
         <nav>
-        <button id="hamburguer">&#9776;</button>
             <ul id="primaryNav">
+                <li class="nav_menu_item"><a href="index.html" class="nav-link">Home</a></li>
                 <li class="nav_menu_item"><a href="discover.html" class="nav-link">Discover</a></li>
                 <li class="nav_menu_item"><a href="directory.html" class="nav-link">Directory</a></li>
                 <li class="nav_menu_item"><a href="join.html" class="nav-link">Join</a></li>
@@ -31,8 +36,8 @@
             </ul>
         </nav>
         <div id="formatted-date"></div>
-        <div id="banner"></div>
     </header>
+    <div id="banner"></div>
 
     <main>
         <section class="container">
@@ -94,20 +99,29 @@
         </section>
     </main>
 
-    <footer class="footer"> 
-        <img class="logo_footer" src="images/logo1.webp" alt="logo">
-
+    <footer>
         <div class="information">
-            <p class="title">Bolivian Chamber of Commerce</p>
-            <p class="addres">Ave. Arce N 0000, La Paz Bolivia</p>
+            <img src="images/logo3.webp" alt="footer_logo">
+            <h3>Bolivian Chamber of Commerce</h3>
+            <p>Ave. Arce N 0000, La Paz Bolivia</p>
         </div>
         <div class="contact_info">
-            <p class="page">info@boliviachamberofcommerce.com ✉</p>
-            <p class="phone">+591 - 75255654 📞</p>
+            <p>info@boliviachamberofcommerce.com ✉</p>
+            <p class="phone">+591 75255654 📞</p>
             <a class="direcction" href="https://goo.gl/maps/4gFZojvpySmaJZnT8">Location 📍</a>
         </div>
         <div class="footer_line">
-            <div id="year"></div><p>© |Bolivia Chamber of Commerce | Jonatan Troche | WDD 230 project | <div id="last-modify"></div>
+            <hr>
+            <p>
+                ©
+                <span id="year"></span> 
+                Bolivia Chamber of Commerce
+            </p>
+            <p>Jonatan Troche | WDD 230 project</p>
+            <p>Weather information provided by 
+                <a href="">https://openweathermap.org/</a>
+            </p>
+            <div id="last-modify"></div>
         </div>
     </footer>
 
