@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Home page</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/logo1.webp" alt="logo" srcset="images/logo1.webp 1x, images/logo2.webp 2x, images/logo3.webp 3x">
+        <h1>Bolivian Chamber of Commerce</h1>
+        <div class="social_media">
+            <a href="https://www.facebook.com/">
+                <img class="facebook" src="images/facebook_icon.png" alt="facebook_icon">
+            </a>
+            <a class="linkedin" href="https://www.linkedin.com/">
+                <img src="images/linkedin_icon.png" alt="linkedin_icon">
+            </a>
+        </div>
+        <button id="hamburger">&#9776;</button>
+        <nav>
+            <ul id="primaryNav">
+                <li class="nav_menu_item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav_menu_item"><a href="discover.html" class="nav-link">Discover</a></li>
+                <li class="nav_menu_item"><a href="directory.html" class="nav-link">Directory</a></li>
+                <li class="nav_menu_item"><a href="join.html" class="nav-link">Join</a></li>
+                <li class="nav_menu_item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="formatted-date"></div>
+    </header>
+    <div id="banner"></div>
+
+    <main>
+        <section class="container">
+            <div class="hero">
+                <h2>Welcome to Bolivia</h2>
+                <img class="hero_img" src="images/home.jpeg" alt="Morenada"
+                srcset="images/phone.jpg 520w, images/tablet.jpeg 950w, images/home.jpeg 1100w">
+                <button type="button" onclick="window.location.href='join.html';">Join Us</button>
+            </div>
+
+            <div class="event">
+                <h3>El Chukuta Gamer 2.0</h3>
+                <img src="images/event.png" alt="event logo">
+                <a class="link_button" href="https://www.facebook.com/Chukuta-Gamer-107360001047175">More info</a>
+                <p>Come and participate in the video game tournament in its second edition throughout July</p>
+            </div>
+
+            <div class="weather">
+                <h3>Weather</h3>
+                <div class="weather-flex">
+                    <img id="weather-img" src="#" alt="#">
+                    <span id="temperature"></span>
+                    <span id="w_description"></span>
+                </div>
+                <hr>
+                <div class="weather-grid">
+                    <p>Wind<br>Speed:<br><span id="wind"></span></p>
+                    <p>Wind<br>Chill:<br><span id="wind-chill"></span></p>
+                </div>
+            </div>
+
+            <div class="news">
+                <h3>The National Chamber of Commerce and the UCB agree to carry out training activities and generate strategies to boost the economy</h3>
+                <img src="images/news.jpg" alt="meeting picture">
+                <a class="link_button" href="https://www.cnc.bo/la-camara-nacional-de-comercio-y-la-ucb-acuerdan-realizar-actividades-de-capacitacion-y-generar-estrategias-para-impulsar-la-economia';">Read News</a>
+                <p>La Paz, May 16, 2022, The National Chamber of Commerce and the Bolivian Catholic University signed an agreement this Monday to carry out training and research activities in areas of common interest and to develop studies that generate an agenda of joint strategies with the end of...</p>
+            </div>
+
+            <div class="join">
+                <p>Discover how to join the chamber of commerce and how it will benefit your organization</p>
+                <button type="button" onclick="window.location.href='join.html';">Join Us</button>
+            </div>
+
+            <div class="spotlight">
+                <div class="spotlight1">
+                </div>
+                <div class="spotlight2">
+                </div>
+                <div class="spotlight3">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="information">
+            <img src="images/logo3.webp" alt="footer_logo">
+            <h3>Bolivian Chamber of Commerce</h3>
+            <p>Ave. Arce N 0000, La Paz Bolivia</p>
+        </div>
+        <div class="contact_info">
+            <p>info@boliviachamberofcommerce.com ✉</p>
+            <p class="phone">+591 75255654 📞</p>
+            <a class="direcction" href="https://goo.gl/maps/4gFZojvpySmaJZnT8">Location 📍</a>
+        </div>
+        <div class="footer_line">
+            <hr>
+            <p>
+                ©
+                <span id="year"></span> 
+                Bolivia Chamber of Commerce
+            </p>
+            <p>Jonatan Troche | WDD 230 project</p>
+            <p>Weather information provided by 
+                <a href="">https://openweathermap.org/</a>
+            </p>
+            <div id="last-modify"></div>
+        </div>
+    </footer>
+
+    <!-- JavaScript links -->
+    <script src="js/banner.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/dates.js"></script>
+    <script src="js/windchill.js"></script>
+    <!-- <script src="js/spotlight.js"></script> -->
+</body>
+</html>

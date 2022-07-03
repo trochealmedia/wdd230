@@ -1,0 +1,76 @@
+{
+    "companies": [
+        {
+            "name": "Tigo",
+            "location": "Av. Mariscal Santa Cruz, esq. Yanacocha, Edificio Hansa, PB",
+            "telf": "800-175000",
+            "logourl": "https://trochealmedia.github.io/wdd230/chamber_07/images/tigo.jpg",
+            "website": "http://www.tigo.com.bo",
+            "membership": "Silver Membership"
+        },
+        {
+            "name": "Clinica Alemana",
+            "location": "Av. 6 de agosto No. 2821, Zona San Jorge",
+            "telf": "(591)224-32521",
+            "logourl": "https://trochealmedia.github.io/wdd230/chamber_07/images/clinica_alemana.jpg",
+            "website": "http://www.clinicalemana.com.bo",
+            "membership":"Gold Membership"
+        },
+        {
+            "name": "Fortaleza SAFI",
+            "location": "Av. 16 de julio Nª 1591 Edif. Señor de Mayo Z. Central",
+            "telf": "800-107234",
+            "logourl": "https://trochealmedia.github.io/wdd230/chamber_07/images/fortaleza.jpg",
+            "website": "http://www.fortalezasafi.com",
+            "membership": "Gold Membership"
+        },
+        {
+            "name": "Tauro S.A.",
+            "location": "Zona Obrajes - Av. Ex Costanerita No:1350 - Edificio Tauro",
+            "telf": "(591)227-51168",
+            "logourl": "https://trochealmedia.github.io/wdd230/chamber_07/images/tauro.jpg",
+            "website": "http://www.constructora-tauro.com",
+            "membership": "Bronze Membership"
+        },
+        {
+            "name": "Prolimpio",
+            "location": "Calle M. Pinilla No.469 entre Av. 20 de Octubre,",
+            "telf": "(591)224-33232",
+            "logourl": "https://trochealmedia.github.io/wdd230/chamber_07/images/prolimpio.jpg",
+            "website": "www.prolimpio.com",
+            "membership": "Silver Membership"
+        },
+        {
+            "name": "Trans Copacabana SRL",
+            "location": "Calle Luis Uriona No. 1936",
+            "telf": "(591)72233555",
+            "logourl": "https://trochealmedia.github.io/wdd230/chamber_07/images/trans_copacabana.jpg",
+            "website": "https://transcopacabanasa.com/",
+            "membership": "Bronze Membership"
+        },
+        {
+            "name": "Pollos Cochabamba",
+            "location": "C. Cochabamba No.125",
+            "telf": "(591)62437333",
+            "logourl": "https://trochealmedia.github.io/wdd230/chamber_07/images/pollos.png",
+            "website": "https://www.facebook.com/polloscochabamba/",
+            "membership": "Silver Membership"
+        },
+        {
+            "name": "Toyosa S.A.",
+            "location": "Av. Mariscal Santa Cruz # 1413",
+            "telf": "(591)698-311219",
+            "logourl": "https://trochealmedia.github.io/wdd230/chamber_07/images/toyosa.jpg",
+            "website": "http://www.toyosa.com/",
+            "membership": "Gold Membership"
+        },
+        {
+            "name": "Farmacorp",
+            "location": "Av. 16 de Julio No. 1804",
+            "telf": "(591)223-11311",
+            "logourl": "https://trochealmedia.github.io/wdd230/chamber_07/images/farmacorp.jpg",
+            "website": "http://www.farmacorp.com/",
+            "membership": "Gold Membership"
+        }
+    ]
+}

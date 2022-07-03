@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Home page</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/logo1.webp" alt="logo" srcset="images/logo1.webp 1x, images/logo2.webp 2x, images/logo3.webp 3x">
+        <h1>Bolivian Chamber of Commerce</h1>
+        <div class="social_media">
+            <a href="https://www.facebook.com/">
+                <img class="facebook" src="images/facebook_icon.png" alt="facebook_icon">
+            </a>
+            <a class="linkedin" href="https://www.linkedin.com/">
+                <img src="images/linkedin_icon.png" alt="linkedin_icon">
+            </a>
+        </div>
+        <button id="hamburger">&#9776;</button>
+        <nav>
+            <ul id="primaryNav">
+                <li class="nav_menu_item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav_menu_item"><a href="discover.html" class="nav-link">Discover</a></li>
+                <li class="nav_menu_item"><a href="directory.html" class="nav-link">Directory</a></li>
+                <li class="nav_menu_item"><a href="join.html" class="nav-link">Join</a></li>
+                <li class="nav_menu_item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="formatted-date"></div>
+    </header>
+    <div id="banner"></div>
+
+    <main class="contact_container">
+        <div class="contact_form_container">
+            <h1>Contact From</h1>
+            <p>* Required field</p>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label class="top">First Name* <input type="text" name="fname" required></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="something@gmail.com" required></label>
+                    <label class="top">Phone* <input type="tel" name="phone" placeholder="1234445" required></label>
+                    <legend>Comments/Questions</legend>
+                    <textarea name="area" id="description" rows="10"></textarea>
+                </fieldset>
+                <input type="hidden" id="full.datev" name="full-date" value="">
+                <input type="submit" value="Send my appication" class="submitbtn">
+            </form>
+        </div>
+        <div class="map_container">
+            <h1>Visit Us</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4549.167017202778!2d-68.12553003355953!3d-16.506991690501362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f206175318d89%3A0x632dbaa19ddd3f8a!2sLas%20Torres%20Mall!5e0!3m2!1sen!2sbo!4v1656806536191!5m2!1sen!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>Ave. Arce No. 2519 La Paz Bolivia</p>
+            <p>Monday – Thursday: 9:00 a.m. to 4:30 p.m.
+                Friday: By Appointment Only
+            </p>
+            <p>Phone: +591 75255654</p>
+            <p>E-mail: info@boliviachamberofcommerce.com</p>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="information">
+            <img src="images/logo3.webp" alt="footer_logo">
+            <h3>Bolivian Chamber of Commerce</h3>
+            <p>Ave. Arce N 0000, La Paz Bolivia</p>
+        </div>
+        <div class="contact_info">
+            <p>info@boliviachamberofcommerce.com ✉</p>
+            <p class="phone">+591 75255654 📞</p>
+            <a class="direcction" href="https://goo.gl/maps/4gFZojvpySmaJZnT8">Location 📍</a>
+        </div>
+        <div class="footer_line">
+            <hr>
+            <p>
+                ©
+                <span id="year"></span> 
+                Bolivia Chamber of Commerce
+            </p>
+            <p>Jonatan Troche | WDD 230 project</p>
+            <p>Weather information provided by 
+                <a href="">https://openweathermap.org/</a>
+            </p>
+            <div id="last-modify"></div>
+        </div>
+    </footer>
+
+    <!-- JavaScript links -->
+    <script src="js/banner.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/dates.js"></script>
+</body>
+</html>
