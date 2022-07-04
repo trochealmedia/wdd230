@@ -525,9 +525,25 @@ section a:hover {
 }
 iframe {
     width: 100%;
+    border-radius: 10px;
 }
 .map_container p{
     font-family: "Roboto";
     font-weight: bolder;
     margin: 10px;
+}
+.sendbtn {
+    background-color: #434d4f;
+    font-family: "Raleway";
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-top: 15px;
+    color: #fefefe;
+    border: none;
+    border-radius: 5px;
+}
+.sendbtn:hover {
+    background-color: #728181;
+    transition: 0.5s;
+    cursor: pointer;
 }
