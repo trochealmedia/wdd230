@@ -11,7 +11,7 @@
         font-size: 20px;
     }
     #banner {
-        font-size: 25px;
+        font-size: 20px;
         padding: 20px;
     }
     /* ------------------social media------------------ */
@@ -67,10 +67,10 @@
         height: fit-content;
     }
     .event h3 {
-        font-size: 30px;
+        font-size: 20px;
     }
     .event img {
-        width: 180px;
+        width: 160px;
     }
     .event p {
         font-size: 20px;
@@ -82,17 +82,17 @@
         height: fit-content;
     }
     .weather h3 {
-        font-size: 30px;
+        font-size: 20px;
     }
     .weather img {
-        width: 120px;
+        width: 100px;
     }
     #temperature p {
         font-size: 30px;
         margin: 10px;
     }
     .weather-grid p {
-        font-size: 20px;
+        font-size: 15px;
         margin: 5px 40px;
     }
     /* ----------------------------news--------------------- */
@@ -124,7 +124,7 @@
         gap: 0;
     }
     .spotlight h3 {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .spotlight a {
@@ -134,8 +134,8 @@
         font-size: 20px;    
     }
     .spotlight img {
-        width: 220px;
-        margin-bottom: 50px;
+        width: 200px;
+        margin-bottom: 30px;
     }
     .spotlight3 {
         display: block;
