@@ -12,5 +12,5 @@ let d= document.lastModified;
 document.querySelector("#last-modify").innerHTML=d;
 
 // ---------------------------------form date-----------------------------------------
-let dv= document.lastModified;
-document.querySelector("#full-datev").value=dv;
+// let dv= document.lastModified;
+// document.querySelector("#full-datev").value=dv;

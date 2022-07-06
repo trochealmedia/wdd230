@@ -233,6 +233,14 @@ main a:hover {
     padding: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.spotlight p {
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: 20px;
+}
+.spotlight h3 {
+    font-size: 30px;
+}
 .spotlight1 {
     margin-top: 20px;
     background-color: #fefefe;
